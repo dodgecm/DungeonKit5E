@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.version           = "1.0.0"
   s.summary           = "DnD 5th Edition character sheet model."
   s.description       = "Character sheet model for DnD 5E that updates dependent values automatically."
-  s.homepage          = "https://github.com/dodgecm/DungeonKit"
-  s.license           = { :type => 'MIT', :file => 'LICENSE.txt' }
+  s.homepage          = "https://github.com/dodgecm/DungeonKit5E"
+  s.license           = { :type => 'OGL1.0', :file => 'LICENSE.txt' }
   s.author            = { "Chris Dodge" => "cmd8n@virginia.edu" }
   s.source            = { :git => "https://github.com/dodgecm/DungeonKit5E.git", :tag => "v#{s.version}" }
   s.platform          = :ios, '8.0'
