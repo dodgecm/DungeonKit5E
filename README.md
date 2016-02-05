@@ -14,7 +14,7 @@ character.abilities.intelligence.base = @17;
 ```
 
 #### Making Choices
-Make choices for your character.  You can query for a specific choice by using its [identifier](https://github.com/dodgecm/DungeonKit/blob/master/DungeonKit/5e/ModifierGroups/DKModifierGroupTags5E.h).
+Make choices for your character.  You can query for a specific choice by using its [identifier](https://github.com/dodgecm/DungeonKit5E/blob/master/DungeonKit5E/ModifierGroups/DKModifierGroupTags5E.h).
 ```objc
 NSLog(@"My character has an intelligence score of %@.", character.abilities.intelligence.value);
 // My character has an intelligence score of 17.
@@ -78,5 +78,5 @@ NSLog(@"My quarterstaff, held in only one hand, now does %@ damage per attack.",
 ```
 
 #### Exploring DungeonKit5E
-The 5E module contains [unit tests](https://github.com/dodgecm/DungeonKit/tree/master/DungeonKitTests/5e) with more in-depth code samples than this guide.  
-You may also find the list of all [statistics](https://github.com/dodgecm/DungeonKit/blob/master/DungeonKit/5e/DKStatisticIDs5E.h) in this module helpful.
+The 5E module contains [unit tests](https://github.com/dodgecm/DungeonKit5E/tree/master/DungeonKit5ETests) with more in-depth code samples than this guide.  
+You may also find the list of all [statistics](https://github.com/dodgecm/DungeonKit5E/blob/master/DungeonKit5E/DKStatisticIDs5E.h) in this module helpful.

@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage          = "https://github.com/dodgecm/DungeonKit"
   s.license           = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author            = { "Chris Dodge" => "cmd8n@virginia.edu" }
-#  s.source            = { :git => "https://github.com/dodgecm/DungeonKit.git", :tag => "v#{s.version}" }
+  s.source            = { :git => "https://github.com/dodgecm/DungeonKit5E.git", :tag => "v#{s.version}" }
   s.platform          = :ios, '8.0'
   s.requires_arc      = true
   s.frameworks        = [ "UIKit" ]
