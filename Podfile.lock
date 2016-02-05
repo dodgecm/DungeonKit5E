@@ -1,0 +1,19 @@
+PODS:
+  - DungeonKit (1.0.0)
+
+DEPENDENCIES:
+  - DungeonKit (from `git@github.com:dodgecm/DungeonKit.git`)
+
+EXTERNAL SOURCES:
+  DungeonKit:
+    :git: git@github.com:dodgecm/DungeonKit.git
+
+CHECKOUT OPTIONS:
+  DungeonKit:
+    :commit: 912ff2883b715ca1a9dbc05ab7a0acd772ff9243
+    :git: git@github.com:dodgecm/DungeonKit.git
+
+SPEC CHECKSUMS:
+  DungeonKit: 6ca166119879cb435d097e928a382cbc06f43d23
+
+COCOAPODS: 0.39.0
